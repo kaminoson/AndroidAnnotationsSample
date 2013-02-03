@@ -41,6 +41,6 @@ public class MainActivity extends Activity {
 	 */
 	@Click
 	void helloButtonClicked() {
-		Toast.makeText(this, "Hello", Toast.LENGTH_LONG).show();
+		Toast.makeText(this, R.string.hello, Toast.LENGTH_LONG).show();
 	}
 }
